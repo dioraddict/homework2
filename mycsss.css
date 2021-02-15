@@ -1,14 +1,12 @@
 .rightheader{display:flex;
     justify-content: flex-end;}
     
-    *{background-image:linear-gradient(rgb(160, 134, 134), rgb(87, 88, 165));}
+    *{background-image:linear-gradient(rgb(160, 134, 134), rgb(133, 135, 238));}
 
 
-    h1{width:fit-content;
-background-color:red;}
+    h1{width:fit-content;}
 
-.contact{width:fit-content;
-box-sizing:border-box;}
+
 
 
 
