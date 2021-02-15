@@ -1,3 +1,3 @@
 Random Password Generator
 
-![alt text](C:\Users\htclo\testpic.png)
+![alt text](C:"\Users\htclo/testpic.png")

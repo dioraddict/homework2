@@ -87,7 +87,7 @@ header {
   cursor: pointer;
 }
 
-button[disabled] {
+button {
   cursor: default;
   background: #cfc3c0;
 }
