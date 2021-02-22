@@ -1,22 +1,35 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mycsss.css">
-    <title>My Developer Profile</title>
-</head>
-<body>
-    
-<h1>Eric Locklear</h1>
-<div class="rightheader">
-    <div class="contact">  Contact me  </div>
-    <div> About me  </div>
-    <div>  Contact me  </div> 
-    <div>  My Work  </div>
-</div>
-<section>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum architecto, ipsam provident blanditiis tempora, beatae fugit consequatur quae mollitia debitis nihil necessitatibus, rem nam officia quasi! Quidem quibusdam sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laborum placeat, eveniet aliquid, repudiandae cum laboriosam et eum, aperiam aspernatur voluptatum iste labore amet quos. Beatae consectetur quae numquam sapiente.</p>
-</section>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./mycss.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            class="passwordfield"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
+    </div>
+    <script src="./myjs.js"></script>
+  </body>
 </html>
